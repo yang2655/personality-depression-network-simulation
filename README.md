@@ -53,12 +53,14 @@ The scripts assume that missing data have already been handled in the cleaned an
 
 ## Required variables
 
-The scripts assume that the cleaned dataset contains:
+The scripts are designed for a de-identified, cleaned analysis dataset. The dataset is not included in this repository. To run the scripts, users should place the analysis dataset in the data/ folder and ensure that it contains the following variables:
 
-- EPQ subscale scores in columns 130-133, which are renamed as `E`, `N`, `P`, and `L`.
-- The PHQ-9 total score in column 134, which is renamed as `DEP_total`.
-- PHQ-9 item variables named `D1` through `D9`.
-
+E: Extraversion score
+N: Neuroticism score
+P: Psychoticism score
+L: Lie/Social Desirability score
+DEP_total: PHQ-9 total score
+D1–D9: PHQ-9 item scores
 ## Main analysis settings
 
 - Random seed: `2025`
