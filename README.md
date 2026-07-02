@@ -55,12 +55,12 @@ The scripts assume that missing data have already been handled in the cleaned an
 
 The scripts are designed for a de-identified, cleaned analysis dataset. The dataset is not included in this repository. To run the scripts, users should place the analysis dataset in the data/ folder and ensure that it contains the following variables:
 
-E: Extraversion score
-N: Neuroticism score
-P: Psychoticism score
-L: Lie/Social Desirability score
-DEP_total: PHQ-9 total score
-D1–D9: PHQ-9 item scores
+- E: Extraversion score
+- N: Neuroticism score
+- P: Psychoticism score
+- L: Lie/Social Desirability score
+- DEP_total: PHQ-9 total score
+- D1–D9: PHQ-9 item scores
 ## Main analysis settings
 
 - Random seed: `2025`
